@@ -23,13 +23,12 @@ public class LinearSerch {
 	}
 
 	private static int search(int[] arr, int key) {
+		
 		int n = arr.length;
-        for(int i=0; i<n; i++)
-        {
+		
+        for(int i=0; i<n; i++){
             if(arr[i]==key)
-            {
-                return i;
-            }
+	            return i;            
         }
         return -1;
 		
